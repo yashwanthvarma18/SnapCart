@@ -266,8 +266,8 @@ npm start
 ### Product 
 ![Products ](./image2.png)
 
-### Store 
-![Store ](./image3.png)
+### Cart 
+![Cart ](./image3.png)
 
 ### Ai Feature 
 ![Ai ](./image4.png)
