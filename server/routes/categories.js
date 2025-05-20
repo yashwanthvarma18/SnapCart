@@ -30,8 +30,6 @@ router.get('/:id', async (req, res) => {
 });
 
 module.exports = router;
-// server/routes/categories.js
-// Add this new route to your existing categories.js file
 
 // Get category by slug
 router.get('/slug/:slug', async (req, res) => {

@@ -45,7 +45,6 @@ router.post('/analyze', async (req, res) => {
     // Process the LLM response to extract items
     const identifiedItems = response.data.choices[0].message.content;
     
-    // Now check if these items are in our database
     const itemsList = parseItemsFromLLMResponse(identifiedItems);
     const availableItems = await checkItemsAvailability(req.db, itemsList);
     
@@ -58,10 +57,7 @@ router.post('/analyze', async (req, res) => {
 
 // Helper function to parse items from LLM response
 function parseItemsFromLLMResponse(response) {
-  // This is a simplified example - actual implementation would depend on response format
-  // In a real implementation, you'd need to parse the text response from the LLM
-  
-  // Example implementation assuming the LLM returns a text list of items
+
   const lines = response.split('\n');
   const items = [];
   
