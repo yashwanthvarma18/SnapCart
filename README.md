@@ -38,7 +38,7 @@ A full-featured grocery delivery application clone inspired by Blinkit, built wi
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/blinkit-clone.git
+git clone https://github.com/yashwanthvarma18/SnapCart.git
 cd blinkit-clone
 ```
 
