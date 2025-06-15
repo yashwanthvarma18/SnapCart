@@ -1,4 +1,4 @@
-# Blinkit Clone
+# SnapCart
 
 A full-featured grocery delivery application clone inspired by Blinkit, built with React, Node.js, and PostgreSQL. This project includes real-time product browsing, shopping cart functionality, and AI-powered image recognition for adding multiple products to your cart by simply uploading a photo.
 
